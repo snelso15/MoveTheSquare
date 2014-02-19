@@ -59,7 +59,7 @@ public class GameView extends JPanel {
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g); // paint background
 		
-		g.setColor(Color.GREEN);
+		g.setColor(Color.ORANGE);
 
 		Square square = model.getSquare();
 		
@@ -77,8 +77,8 @@ public class GameView extends JPanel {
 				Square square = new Square();
 				square.setX(300.0);
 				square.setY(220.0);
-				square.setWidth(40.0);
-				square.setHeight(40.0);
+				square.setWidth(120.0);
+				square.setHeight(120.0);
 				model.setSquare(square);
 				
 				GameController controller = new GameController();
