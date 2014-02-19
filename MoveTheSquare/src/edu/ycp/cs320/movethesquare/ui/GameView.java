@@ -24,7 +24,7 @@ public class GameView extends JPanel {
 	public GameView(Game model) {
 		this.model = model;
 		setPreferredSize(new Dimension((int) model.getWidth(), (int)model.getHeight()));
-		setBackground(Color.DARK_GRAY);
+		setBackground(Color.GREEN);
 		
 		this.timer = new Timer(1000 / 30, new ActionListener() {
 			@Override
